@@ -36,7 +36,7 @@ const portfolioWorks = [
   {
     title: "New Work",
     image: "/images/portfolio/your-new-image.png", // or
-    video: "/videos/your-new-video.mp4",
+    video: "/video.mp4",
     type: "image" // or "video"
   },
   // ...

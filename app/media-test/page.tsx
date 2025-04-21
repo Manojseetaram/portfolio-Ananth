@@ -6,9 +6,9 @@ import { Button } from "@/components/ui/button"
 export default function MediaTestPage() {
   const [activeTab, setActiveTab] = useState<"images" | "videos">("images")
 
-  const images = ["/images/0.png", "/images/2.png"]
+  const images = ["/images.png", "/images.png"]
 
-  const videos = ["/videos/8.mp4", "/videos/9.mp4"]
+  const videos = ["/videos.mp4", "/videos.mp4"]
 
   return (
     <div className="min-h-screen bg-gray-100 p-8">
